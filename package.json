@@ -1,0 +1,24 @@
+{
+  "name": "desafiowarrenAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natanlbispo/desafiowarrenAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natanlbispo/desafiowarrenAPI/issues"
+  },
+  "homepage": "https://github.com/natanlbispo/desafiowarrenAPI#readme",
+  "devDependencies": {
+    "cypress": "^5.1.0"
+  }
+}
