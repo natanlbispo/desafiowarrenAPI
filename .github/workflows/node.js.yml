@@ -5,7 +5,7 @@ on:
       - 'master'
 jobs:
   cypress-test:
-    name: Run on Chrome 83
+    name: test
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
