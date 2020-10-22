@@ -4,8 +4,7 @@ on:
     branches: 
       - 'master'
 jobs:
-  cypress-test:
-    name: test
+  cypress-run:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
