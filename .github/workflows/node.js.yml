@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - name: Install CI
-        uses: actions/checkout@v1
         run: npm ci
         
       - name: Cypress run
-        uses: cypress-io/github-action@v2
         run: npm run cy:open
