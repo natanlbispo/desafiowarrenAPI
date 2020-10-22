@@ -1,14 +1,12 @@
-name: End-to-end tests
-on:
-  push:
-    branches: 
-      - 'master'
+name: Build
+on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-16.04
     steps:
-      - name: Install CI
-        run: npm ci
-        
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Cypress run
-        run: npm run cy:open
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
