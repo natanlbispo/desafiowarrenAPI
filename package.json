@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cypress": "npx cypress run",
+    "cypress:open": "npx cypress open"
   },
   "repository": {
     "type": "git",
